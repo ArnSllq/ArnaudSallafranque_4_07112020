@@ -729,8 +729,12 @@ footer .f-color {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
+}
+.expert-title {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 h3 {
@@ -1066,7 +1070,7 @@ h4 {
         padding-right: 0;
     }
     .black-bg {
-        width: 80%;
+        width: 100%;
     }
 }
 
