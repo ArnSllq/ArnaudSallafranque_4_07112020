@@ -777,10 +777,18 @@ h4 {
 }
 
 .black-background {
-    /* background-color: rgba(165, 147, 99, 0.7); */
     background-color: rgba(48, 48, 48, 0.7);
     padding: 40px 40px 40px 40px;
 }
+
+.black-bg {
+    background-color: rgba(48, 48, 48, 0.7);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
 
 .bold-link {
     font-weight: 900;
@@ -791,9 +799,9 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/* .bgc-dark-slate-blue {
     background-color: #364577;
-}
+} */
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -1056,6 +1064,9 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .black-bg {
+        width: 80%;
     }
 }
 
